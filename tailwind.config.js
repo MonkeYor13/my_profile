@@ -6,7 +6,15 @@ module.exports = {
     "./screens/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        orangeApp: "#F15A24",
+        background: "#010101",
+        link: "#FE895F",
+        Darkgrey: "#9D9D9D",
+        Lightgrey: "#E7E7E7",
+      },
+    },
   },
   plugins: [],
 };

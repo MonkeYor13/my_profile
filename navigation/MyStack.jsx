@@ -7,15 +7,12 @@ import MyTab from './MyTab';
 export default function MyStack() {
   return (
     <Stack.Navigator
-      initialRouteName="Home" 
-      screenOptions={{
-        headerStyle: {backgroundColor: '#010101'},
-      }}
+      initialRouteName="Home"
     >
-      <Stack.Screen name='Home' component={MyTab} 
-      options={{
-        headerShown: false
-      }}
+      <Stack.Screen name='Home' component={MyTab}
+        options={{
+          headerShown: false
+        }}
       />
       <Stack.Screen name='Skills' component={MySkills} />
       <Stack.Screen name='Hobbies' component={MyHobbies} />
