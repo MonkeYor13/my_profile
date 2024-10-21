@@ -4,15 +4,19 @@ module.exports = {
     "./App.{js,jsx,ts,tsx}",
     "./components/**/*.{js,jsx,ts,tsx}",
     "./screens/**/*.{js,jsx,ts,tsx}",
+    "./assets/fonts/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         orangeApp: "#F15A24",
-        background: "#010101",
-        link: "#FE895F",
-        darkgrey: "#9D9D9D",
-        lightgrey: "#E7E7E7",
+        bg_primary: "#010101",
+        bg_secundary: "#181A1B",
+        title_text: "#FFFFFF",
+        text: "#FFFFFF8E",
+      },
+      fontFamily: {
+        inter: ["Inter_400Regular", 'Inter_700Bold'],
       },
     },
   },

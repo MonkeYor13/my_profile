@@ -1,7 +1,5 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 const Stack = createNativeStackNavigator();
-import MySkills from '../screens/MySkills'
-import MyHobbies from '../screens/MyHobbies'
 import MyTab from './MyTab';
 
 export default function MyStack() {
@@ -14,8 +12,7 @@ export default function MyStack() {
           headerShown: false
         }}
       />
-      <Stack.Screen name='Skills' component={MySkills} />
-      <Stack.Screen name='Hobbies' component={MyHobbies} />
+
     </Stack.Navigator>
   )
 }
