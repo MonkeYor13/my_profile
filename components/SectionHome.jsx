@@ -1,12 +1,17 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { Inter_400Regular, Inter_700Bold } from '@expo-google-fonts/inter';
+import { useFonts } from "expo-font"
+
 
 export default function SectionHome() {
+  const [fontsLoaded] = useFonts({
+    Anto: require("")
+  })
+
   return (
     <View>
       <View className="bg-red-200">
-        <Text className="text-orangeApp text-xl font-inter font-bold">©MONKE{'\n'}YOR</Text>
+        <Text className="text-orangeApp text-3xl" style={{ fontFamily: "Anto" }}>©MONKE{'\n'}YOR</Text>
       </View>
       <View className="bg-red-200">
 

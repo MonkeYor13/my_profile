@@ -15,9 +15,6 @@ module.exports = {
         title_text: "#FFFFFF",
         text: "#FFFFFF8E",
       },
-      fontFamily: {
-        inter: ["Inter_400Regular", 'Inter_700Bold'],
-      },
     },
   },
   plugins: [],
